@@ -1,0 +1,135 @@
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none; border: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+}
+
+*::selection{
+    background-color: blue;
+    color: #000;
+}
+
+html{
+    font-size: 75.5%;
+}
+html::-webkit-scrollbar{
+    width: 1.4rem;
+}
+html::-webkit-scrollbar-track{
+    background-color: #222;
+}
+html::-webkit-scrollbar-thumb{
+    background-color: blue;
+}
+body{
+    background-color: #111;
+    overflow-x: hidden;
+    padding: 35rem;
+}
+
+section{
+    padding: 1rem;
+}
+
+.btn{
+padding:1rem 1rem;
+background: #333;
+color: #fff;
+cursor: pointer;
+margin-top: 1rem;
+font-size: 2rem;
+border-radius: 2rem;
+}
+
+.btn i{
+    padding: 0 .5rem;
+    font-size: 1.5rem;
+}
+.btn:hover{
+    background-color: blue;
+}
+
+
+header{
+    position: fixed;
+    top: 0; left: 0;
+    z-index: 1000;
+    height: 100%;
+    width: 35rem;
+    background: lightslategray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    text-align: center;
+}
+.user img{
+    height: 18rem;
+    width: 18rem;
+    border-radius: 50%;
+    object-fit: contain;
+    margin-bottom: 1rem;
+    border: 2rem solid pink;
+}
+.user .name{
+    font-size: 3.5rem;
+    color: #fff;
+}
+.user .post{
+    font-size: 1.5rem;
+    color: #eee;
+}
+.navbar{
+    width: 100%;
+}
+.navbar ul{
+    list-style: none;
+    padding: 1rem 3rem;
+}
+
+.navbar ul li a{
+    display: block;
+    padding: 1rem;
+    margin: 1.5rem 0;
+    background: #333;
+    color: #fff;
+    font-size: 1rem;
+    border-radius: 3rem;
+}
+.navbar ul li a:hover{
+    color: blue;
+}
+#menu{
+    position: fixed;
+    top: 2rem; right: 2rem;
+    background: #333;
+    color: #fff;
+    cursor: pointer;
+    font-size: 2.5rem;
+    padding: 1rem 1.5rem;
+    z-index: 1000;
+    display: none;
+}
+
+.home{
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    padding: 0 10rem;
+}
+.home h3{
+    font-size: 2.5rem;
+    color: #fff;
+}
+.home h1{
+    font-size: 3rem;
+    color: #fff;
+}
+
+.home p{
+    font-size: 1.5rem;
+    color: #eee;
+}

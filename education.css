@@ -1,0 +1,65 @@
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none; border: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+}
+
+body{
+    background-color:black;
+    overflow-x: hidden;
+    padding: 15rem;
+    
+}
+
+.heading{
+    text-align: center;
+    margin: 0 6rem;
+    font-size: 4rem;
+    padding: 1rem;
+    border-bottom: 1rem solid;
+    color: #fff;
+}
+
+.heading span{
+    color: blue;
+}
+
+.education .box-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 1rem 0;
+    padding-left: 3rem;
+}
+
+.education .box-container .box{
+width: 27rem;
+margin: 4rem 1rem;
+padding-left: 4rem;
+border-left: 1rem solid #fff;
+position: relative;
+}
+
+.education .box-container .box span{
+    font-size: 1.3rem;
+    background: #222;
+    color: blue;
+    padding: 1rem 2.5rem;
+}
+
+.education .box-container .box h3{
+    font-size: 2rem;
+    color: #fff;
+    padding-top: 1.5rem;
+}
+
+.education .box-container .box p{
+    font-size: 1.4rem;
+    color: #fff;
+    padding-top: 1rem 0;
+}
+
